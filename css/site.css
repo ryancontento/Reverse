@@ -1,25 +1,25 @@
 :root {
-  --primary-color: #00a5ba;
-  --secondary-color: f#b49714;
+  --primary-color: #450adb;
+  --secondary-color: #ed4df9;
   --dark-color: #140e16;
-  --light-color: #bbbcbe;
+  --light-color: #a5a7aa;
 }
 
 body {
-  font-color: var(--dark-color);
+  color: var(--dark-color);
 }
 
 nav {
-  background-color: var(--dark-color);
-  font-color: var(--light-color);
+  background-color: var(--light-color);
+  color: var(--primary-color);
 }
 
 .nav-item {
-  font-color: var(--light-color);
+  color: var(--light-color);
 }
 
 footer {
-  background-color: var(--dark-color);
+  background-color: var(--light-color);
   padding-right: 2rem;
 }
 
@@ -50,11 +50,11 @@ footer .social > a {
 
 footer .social > a:hover {
   opacity: 0.9;
-  color: #b49714;
+  color: var(--secondary-color);
 }
 
 .checklist > li i {
-  color: #b49714;
+  color: var(--secondary-color);
 }
 
 code[class*="language-"],
