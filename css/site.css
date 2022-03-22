@@ -2,20 +2,31 @@
   --primary-color: #450adb;
   --secondary-color: #ed4df9;
   --dark-color: #140e16;
-  --light-color: #a5a7aa;
+  --light-color: #d1d3d6;
 }
 
 body {
   color: var(--dark-color);
+  font-family: "Bebas Neue" !important;
 }
 
 nav {
   background-color: var(--light-color);
-  color: var(--primary-color);
+  font-color: var(--dark-color);
 }
 
 .nav-item {
-  color: var(--light-color);
+  color: var(--primary-color);
+  font-color: var(--dark-color);
+}
+
+.nav-item > a:hover {
+  opacity: 0.9;
+  color: var(--secondary-color);
+}
+
+.navbar-toggler {
+  color: var(--secondary-color) !important;
 }
 
 footer {
